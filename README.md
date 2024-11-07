@@ -1,2 +1,2 @@
 # UniversalBible
-This is a website that strives to have as much versions of the Bible and different Bibles for different religions while the main Bible is the Christian bible it plans to have different Bibles from other Religions to.
+This website is dedicated to providing a comprehensive and diverse collection of Bible versions from various traditions and religions around the world. While the primary focus is on the Christian Bible, this site aims to offer a rich selection of different translations, including historical and modern versions, to cater to a broad audience. 
