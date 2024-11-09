@@ -49,6 +49,8 @@ a {
 }
 
 .button-text {
+    width: 93px;
+    text-align: center;
     color: #7a7a7a;
     margin: 0;
     padding: 0;
@@ -57,7 +59,7 @@ a {
 
 .button-img {
     height: 22.5px;
-    width: fit-content;
+    width: 22.5px;
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
