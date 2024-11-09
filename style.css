@@ -161,13 +161,12 @@ a {
     align-items: center;
     margin-bottom: 100px;
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 864px) {
     .verse {
         width: 90%;
     }
-}
 
-@media screen and (max-width: 430px) and (max-height: 852px) and (-webkit-min-device-pixel-ratio: 2) {
     .bottombar {
         height: 85px;
     }
