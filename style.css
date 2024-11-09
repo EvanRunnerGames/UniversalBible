@@ -169,17 +169,17 @@ a {
 
 @media screen and (max-width: 550px) {
     .bottombar {
-        height: 300px;
+        height: 85px;
     }
 
     .button {
-        height: 300px;
-        width: 300px;
+        height: 100px;
+        width: 100px;
     }
 
     .button-img {
-        height: 100px;
-        width: 100px;
+        height: 40px;
+        width: 40px;
     }
 
     .button-text {
