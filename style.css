@@ -156,7 +156,6 @@ a {
 .content {
     height: 100%;
     width: 100%;
-    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,5 +164,25 @@ a {
 @media screen and (max-width: 1000px) {
     .verse {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .bottombar {
+        height: 300px;
+    }
+
+    .button {
+        height: 300px;
+        width: 300px;
+    }
+
+    .button-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .button-text {
+
     }
 }
