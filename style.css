@@ -44,7 +44,6 @@ a {
 }
 
 .button:hover {
-    background-color:#121212;
     opacity: 0.7;
     cursor: pointer;
 }
@@ -67,7 +66,7 @@ a {
 }
 
 
-.menu {
+.menu-linker {
     display: none;
 }
 
@@ -191,13 +190,15 @@ a {
     }
 
     .verse-text {
-
         font-size: medium;
+    }
 
+    .translations-linker {
+        display: none;
     }
 
 
-    .menu {
+    .menu-linker {
         display: flex;
     }
 }
