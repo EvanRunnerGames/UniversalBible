@@ -168,7 +168,7 @@ a {
     }
 
     .bottombar {
-        height: 85px;
+        height: 65px;
     }
 
     .button {
@@ -177,12 +177,12 @@ a {
     }
 
     .button-img {
-        height: 40px;
-        width: 40px;
+        height: 23px;
+        width: 23px;
     }
 
     .button-text {
-        font-size: medium;
+        font-size: small;
     }
 
     .verse-text {
