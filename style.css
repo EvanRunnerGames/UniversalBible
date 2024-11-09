@@ -66,6 +66,11 @@ a {
     margin-bottom: 5px;
 }
 
+
+.menu {
+    display: none;
+}
+
 .selected-text {
     color: white;
 }
@@ -177,12 +182,12 @@ a {
     }
 
     .button-img {
-        height: 23px;
-        width: 23px;
+        height: 18px;
+        width: 18px;
     }
 
     .button-text {
-        font-size: small;
+        font-size: smaller;
     }
 
     .verse-text {
@@ -191,7 +196,8 @@ a {
 
     }
 
-    .verse-name {
 
+    .menu {
+        display: flex;
     }
 }
