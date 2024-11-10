@@ -209,4 +209,16 @@ a {
     .menu-linker {
         display: flex;
     }
+
+    .verse-name {
+        font-size: medium;
+    }
+
+    .verse-text {
+        font-size: small;
+    }
+
+    .verse-logo {
+        height: 100px;
+    }
 }
