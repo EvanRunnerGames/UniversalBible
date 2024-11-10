@@ -109,6 +109,14 @@ a {
     background-size: cover;
 }
 
+.welcome-homepage {
+    width: 100%;
+    height: fit-content;
+    background-color: #121212;
+    border-bottom: #3e3e3e solid 1px;
+    padding-bottom: 10px;
+}
+
 .hope-logo {
     background-image: url("images/verses_logos/hope.avif");
 }
