@@ -9,7 +9,7 @@
 
         <meta name="description" content="Access a free, ad-free Bible website with translations in all languages. Read the Bible without interruptions, anytime and anywhere, for you and everyone.">
         <title>Universal Bible - The Bible For Everyone Anywhere</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/style.css">
         <link rel="icon" href="images/favicon.png" type="images/png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,15 +17,43 @@
     </head>
     <body>
 
+        <div class="watermark-intro" id="watermark-intro">
+            <img src="images/favicon.png" class="watermark">
+            <div class="watermark-text">
+                <h4>Universal Bible</h4>
+                <h6>© Jacob Brazell 2024</h6>
+            </div>
+
+        </div>
+
         <div class="content">
 
             <!---->
 
-            <div class="welcome-homepage">
+            <div class="verse welcome-message">
                 <h2 class="verse-item verse-name">Welcome to Universal Bible</h2>
                 <h4 class="verse-item verse-text">
                     Universal Bible offers a wide range of Bible translations in many languages, from ancient to modern versions, all ad-free for the best reading experience, anytime, anywhere.                
                 </h4>
+                <div class="attributes">
+                    <div class="attribute verse-item">
+                        #ad-free
+                    </div>
+                    <div class="attribute verse-item">
+                        #all-translations
+                    </div>
+                    <div class="attribute verse-item">
+                        #non-profit
+                    </div>
+
+                    <div class="attribute verse-item">
+                        #community-driven
+                    </div>
+
+                    <div class="attribute verse-item">
+                        #universal-bible
+                    </div>
+                </div>
             </div>
 
             <!--HOPE VERSE-->
@@ -157,7 +185,7 @@
                 <h4 class="verse-item verse-text">"Not one of all the Lord's good promises to Israel failed; every one was fulfilled."</h4>
             </div>
 
-            <h6>© Jacob Brazell 2024 | Programmer: Jacob Brazell | Designer: Luke Whigam</h6>
+            <h6 id="credit">* | * | *</h6>
         </div>
 
         <div class="bottombar">
@@ -198,6 +226,9 @@
 
 
         </div>
+
+        <script src="scripts/watermark-loading.js"></script>
+        <script src="scripts/script.js"></script>
 
     </body>
 </html>

@@ -14,6 +14,51 @@ a {
     text-decoration: none;
 }
 
+.watermark-intro {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.attributes {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
+}
+
+.attribute {
+    border-radius: 100px;
+    width: fit-content;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px !important;
+}
+
+.watermark-text {
+    font-weight: normal;
+}
+
+.watermark {
+    width: 80px;
+    height: 80px;
+}
+
 .bottombar {
     width: 100%;
     height: 60px;
@@ -78,6 +123,11 @@ a {
     filter: brightness(1000%);
 }
 
+.welcome-message {
+    background: linear-gradient(to right, #cf33ff, #9000ff, #4c63af);
+
+}
+
 .verse {
     width: 800px;
     display: flex;
@@ -101,6 +151,14 @@ a {
     margin-right: 10px;
 }
 
+.verse-text {
+    font-weight: 400;
+}
+
+.verse-name {
+    font-weight:500;
+}
+
 .verse-logo {
     width: 100%;
     height: 160px;
@@ -118,51 +176,51 @@ a {
 }
 
 .hope-logo {
-    background-image: url("images/verses_logos/hope.avif");
+    background-image: url("../images/verses_logos/hope.avif");
 }
 
 .faith-logo {
-    background-image: url("images/verses_logos/faith.webp");
+    background-image: url("../images/verses_logos/faith.webp");
 }
 
 .peace-logo {
-    background-image: url("images/verses_logos/peace.jpg");
+    background-image: url("../images/verses_logos/peace.jpg");
 }
 
 .love-logo {
-    background-image: url("images/verses_logos/love.avif");
+    background-image: url("../images/verses_logos/love.avif");
 }
 
 .strength-logo {
-    background-image: url("images/verses_logos/strength.webp");
+    background-image: url("../images/verses_logos/strength.webp");
 }
 
 .wisdom-logo {
-    background-image: url("images/verses_logos/wisdom.webp");
+    background-image: url("../images/verses_logos/wisdom.webp");
 }
 
 .gratitude-logo {
-    background-image: url("images/verses_logos/gratitude.jpg");
+    background-image: url("../images/verses_logos/gratitude.jpg");
 }
 
 .comfort-logo {
-    background-image: url("images/verses_logos/comfort.jpg");
+    background-image: url("../images/verses_logos/comfort.jpg");
 }
 
 .encouragement-logo {
-    background-image: url("images/verses_logos/encougment.jpg");
+    background-image: url("../images/verses_logos/encougment.jpg");
 }
 
 .justice-logo {
-    background-image: url("images/verses_logos/justice.jpg");
+    background-image: url("../images/verses_logos/justice.jpg");
 }
 
 .prayer-logo {
-    background-image: url("images/verses_logos/praying.webp");
+    background-image: url("../images/verses_logos/praying.webp");
 }
 
 .gods-promise-logo {
-    background-image: url("images/verses_logos/gods_promise.webp");
+    background-image: url("../images/verses_logos/gods_promise.webp");
 }
 
 .content {
