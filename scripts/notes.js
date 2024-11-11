@@ -11,7 +11,7 @@ function loadNotes() {
 // Function to display a note on the page
 function displayNote(title, content) {
     const noteElement = document.createElement("div");
-    noteElement.classList.add("verse", "verse_nohover");
+    noteElement.classList.add("verse", "verse_nohover", "notes-container");
 
     noteElement.innerHTML = `
         <h2 class="verse-item verse-name" id="note-title">${title}</h2>
