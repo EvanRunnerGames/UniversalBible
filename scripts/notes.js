@@ -1,7 +1,8 @@
 // Function to load notes from localStorage and display them
 function loadNotes() {
     const storedNotes = JSON.parse(localStorage.getItem("notes")) || [];
-    // Display each note immediately when loading
+
+    // Display each note when the page is loaded
     storedNotes.forEach(note => {
         displayNote(note.title, note.content);
     });
@@ -10,7 +11,7 @@ function loadNotes() {
 // Function to display a note on the page
 function displayNote(title, content) {
     const noteElement = document.createElement("div");
-    noteElement.classList.add("verse", "verse_nohover", "note-bg");
+    noteElement.classList.add("verse", "verse_nohover");
 
     noteElement.innerHTML = `
         <h2 class="verse-item verse-name" id="note-title">${title}</h2>
@@ -21,11 +22,12 @@ function displayNote(title, content) {
     `;
 
     // Append the new note to the container (at the top)
-    document.getElementById("notes-container").insertBefore(noteElement, document.getElementById("notes-container").firstChild);
+    const notesContainer = document.getElementById("notes-container");
+    notesContainer.insertBefore(noteElement, notesContainer.firstChild);
 
     // Add event listener for delete button
     noteElement.querySelector(".delete-note").addEventListener("click", function() {
-        deleteNote(noteElement);
+        deleteNote(noteElement, title, content);
     });
 }
 
@@ -58,16 +60,12 @@ function saveNote() {
 }
 
 // Function to delete a note
-function deleteNote(noteElement) {
-    // Get the note title and content from the DOM
-    const noteTitle = noteElement.querySelector("#note-title").textContent;
-    const noteContent = noteElement.querySelector("#note-content").textContent;
-
+function deleteNote(noteElement, title, content) {
     // Get the existing notes from localStorage
     let storedNotes = JSON.parse(localStorage.getItem("notes")) || [];
 
     // Remove the note from the stored array
-    storedNotes = storedNotes.filter(note => note.title !== noteTitle || note.content !== noteContent);
+    storedNotes = storedNotes.filter(note => note.title !== title || note.content !== content);
 
     // Save the updated notes back to localStorage
     localStorage.setItem("notes", JSON.stringify(storedNotes));
