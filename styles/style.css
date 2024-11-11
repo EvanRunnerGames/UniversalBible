@@ -334,4 +334,8 @@ a {
     .verse-logo {
         height: 100px;
     }
+
+    .attributes {
+        display: none;
+    }
 }
