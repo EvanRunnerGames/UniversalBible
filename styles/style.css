@@ -309,6 +309,40 @@ textarea:focus {
     margin-bottom: 20px;
 }
 
+.book {
+    width: 95%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* .book-chapter styling */
+.book-chapter {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    border: #3e3e3e solid 1px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    margin: 10px;
+}
+
+
+.book-chapter:hover {
+    cursor: pointer;
+}
+
+.chapter-wrapper {
+    display: inline-block; /* Ensure the <a> behaves like an inline-block element */
+    text-decoration: none; /* Remove default underline */
+    margin: 0px; /* Optional: remove any extra margin */
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
 
 /* Responsive adjustments */
 @media screen and (max-width: 864px) {
