@@ -309,6 +309,10 @@ textarea:focus {
     margin-bottom: 20px;
 }
 
+.book-title {
+    width: 100%;
+}
+
 .book {
     width: 95%;
     margin-top: 15px;
