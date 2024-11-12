@@ -338,13 +338,15 @@ textarea:focus {
 
 .book-title {
     width: 100%;
+    width: 95%;
+    margin-top: 15px;
 }
 
 .book {
     width: 95%;
-    margin-top: 15px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /* .book-chapter styling */
