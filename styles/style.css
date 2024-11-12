@@ -20,6 +20,33 @@ textarea:focus {
     border: none; /* Or specify a border if you want a custom style, otherwise, just remove it */
 }
 
+.menu-section {
+    width: 100vw;
+    height: fit-content;
+    transform: translateX(20px);
+}
+
+.menu-section-container {
+    width: 100vw;
+    border-top: #3e3e3e solid 1px;
+    border-bottom: #3e3e3e solid 1px;
+    box-sizing: border-box;
+    height: fit-content;
+    overflow: hidden;
+
+}
+
+.menu-link {
+    width: 100%;
+    height: 60px;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+
+}
 
 .notes-typein {
     background-color: #444444;
