@@ -22,7 +22,7 @@ window.onload = function() {
 
             <a href="../../videos/" class="videos-linker">
                 <div class="button">
-                    <img src="../../../images/buttons/play-button.svg" class="button-img">
+                    <img src="../../../images/buttons/play.png" class="button-img">
                     <h5 class="button-text">Videos</h5>
                 </div>
             </a>

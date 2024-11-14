@@ -60,6 +60,11 @@ textarea, input {
     position: relative;
 }
 
+.video {
+    border: transparent 0px solid;
+    height: calc(100vh - 60px);
+}
+
 .video-body {
     width: 100%;
     height: 100vh;
@@ -69,6 +74,22 @@ textarea, input {
 .video-bottombar {
     height: 60px;
     width: 100%;
+}
+
+.author-container {
+    color: rgb(36, 36, 36);
+    background-color:azure;
+    width: fit-content;
+    padding: 1px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 4px;
+}
+
+.author-img {
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
 }
 
 
