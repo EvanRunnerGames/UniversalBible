@@ -20,6 +20,13 @@ textarea:focus {
     border: none; /* Or specify a border if you want a custom style, otherwise, just remove it */
 }
 
+textarea, input {
+    outline: none;  /* Removes the outline when focused */
+    border: none;   /* Removes the border */
+}
+
+
+
 .menu-section {
     width: 100vw;
     height: fit-content;
@@ -34,6 +41,94 @@ textarea:focus {
     height: fit-content;
     overflow: hidden;
 
+}
+
+.videos-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    width: 100%;
+    height: calc(100vh - 60px);  /* 100vh (viewport height) minus 60px */
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-body {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.video-bottombar {
+    height: 60px;
+    width: 100%;
+}
+
+
+.videos-search-bar {
+    border: transparent solid 0px;
+    background-color: white;
+    border-bottom: #00b2ff solid 4px !important;
+    width: 100%;
+    height: 60px;
+    resize: none;
+    color: black;
+    font-size: large;
+    line-height: 55px; /* Set line height equal to height */
+    
+}
+
+.video-chooser {
+    height: 230px;
+    margin: 20px;  
+    cursor: pointer; 
+    position: relative;
+}
+
+.video-img-ply {
+    position: absolute;
+    left: 132px;
+    width: 50px;
+    height: auto;
+    z-index: 1000;
+    top: 68px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;  
+}
+
+.video-img {
+    width: 314px;
+    height: 177px;
+    border: #00b2ff solid 2px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    transition: all 0.3s ease-in-out;   
+}
+
+.video-chooser:hover .video-img {
+    opacity: 0.7;
+}
+
+.video-chooser:hover .video-img-ply {
+    opacity: 1;
+}
+
+.video-title {
+    width: 314px;
+    height: 44px;
+    font-weight: 500;
+    text-align: center;
+    word-wrap: break-word; /* Break long words to the next line if necessary */
+    overflow-wrap: break-word; /* Ensures words break correctly across lines */
 }
 
 .menu-link {
