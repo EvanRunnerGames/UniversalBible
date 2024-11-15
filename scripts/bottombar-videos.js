@@ -3,8 +3,8 @@ window.onload = function() {
         <div class="bottombar">
             <a href="../../videos/" class="home-linker">
                 <div class="button">
-                    <img src="../../../images/buttons/home.png" class="button-img selected-img">
-                    <h5 class="button-text selected-text">Home</h5>
+                    <img src="../../../images/buttons/home.png" class="button-img">
+                    <h5 class="button-text">Home</h5>
                 </div>
             </a>
             <a href="../../bible/" class="bible-linker">
@@ -22,8 +22,8 @@ window.onload = function() {
 
             <a href="../../videos/" class="videos-linker">
                 <div class="button">
-                    <img src="../../../images/buttons/play.png" class="button-img">
-                    <h5 class="button-text">Videos</h5>
+                    <img src="../../../images/buttons/play.png" class="button-img selected-img">
+                    <h5 class="button-text selected-text">Videos</h5>
                 </div>
             </a>
 

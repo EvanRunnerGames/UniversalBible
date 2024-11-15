@@ -496,6 +496,12 @@ textarea, input {
 
 /* Responsive adjustments */
 @media screen and (max-width: 864px) {
+
+
+    .videos-linker {
+        display: none;
+    }
+
     .verse {
         width: 95%;
     }
