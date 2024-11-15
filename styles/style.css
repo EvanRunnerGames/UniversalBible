@@ -63,6 +63,7 @@ textarea, input {
 .video {
     border: transparent 0px solid;
     height: calc(100vh - 60px);
+    width: 100%;
 }
 
 .video-body {
