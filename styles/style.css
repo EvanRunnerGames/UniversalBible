@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #121212;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 * {
@@ -295,12 +297,16 @@ textarea, input {
 }
 
 .button-text {
-    width: 93px;
+    width: fit-content;
     text-align: center;
     color: #7a7a7a;
     margin: 0;
     padding: 0;
     font-size: 13px;
+}
+
+.translation-title {
+    margin-left: 10px;
 }
 
 .button-img {
@@ -373,6 +379,11 @@ textarea, input {
     background-color: #121212;
     border-bottom: #3e3e3e solid 1px;
     padding-bottom: 10px;
+}
+
+.book-holder-title {
+    
+    width: 95%;
 }
 
 .hope-logo {
@@ -492,6 +503,11 @@ textarea, input {
     padding: 0px;
     width: 40px;
     height: 40px;
+}
+
+.translation-div {
+    margin: 10px;
+    cursor: pointer;
 }
 
 /* Responsive adjustments */

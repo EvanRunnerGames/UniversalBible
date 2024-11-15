@@ -18,11 +18,20 @@
 <body>
 
     <div class="content">
+        <!-- Search bar for translations -->
+        <textarea class="videos-search-bar" placeholder="Search..." id="searchBar"></textarea>
+
+        <!-- Menu section with translation options -->
+        <a href="../bible/index.html" class="menu-section-container">
+            <div class="menu-section" data-translation="King James Version">
+                <div class="menu-link">
+                    <img src="../../images/buttons/translations.png" class="button-img">
+                    <h5 class="button-text translation-title">King James Version (KJV)</h5>
+                </div>
+            </div>
+        </a>
 
 
-
-
-        
     </div>
 
     <div class="bottombar">
@@ -67,11 +76,11 @@
                 <h5 class="button-text selected-text">Menu</h5>
             </div>
         </a>
-
-
     </div>
 
+    <!-- Include the JavaScript -->
     <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/translation-search.js"></script>
 
 </body>
 </html>
